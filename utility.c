@@ -113,7 +113,7 @@ extern int str2time(const char* s, int b, int l, gtime_t* time) {
 }
 
 /*…Ë÷√Œ¿–«±‡∫≈*/
-extern int setSatNum(const char satCode[4]) {
+extern int setSat(const char satCode[4]) {
     char sys = satCode[0];
     int prn = str2num(satCode, 1, 2);
     int sat;
